@@ -1,0 +1,23 @@
+query getLocationInfo {
+  queryLocations(searchQuery: "San Francisco") {
+    woeid
+    latt_long
+    location_type
+  }
+}
+
+query getWeather {
+  weatherByLocation(woeid: 2487956) {
+    time
+    sun_set
+    sources {
+      title
+    }
+    sun_rise
+    consolidated_weather {
+      air_pressure
+      weather_state_name
+      wind_direction
+    }
+  }
+}

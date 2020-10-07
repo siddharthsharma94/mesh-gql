@@ -1,0 +1,165 @@
+{
+  "consolidated_weather": [
+    {
+      "id": 5457492537507840,
+      "weather_state_name": "Heavy Cloud",
+      "weather_state_abbr": "hc",
+      "wind_direction_compass": "WSW",
+      "created": "2020-10-07T06:20:19.478921Z",
+      "applicable_date": "2020-10-07",
+      "min_temp": 12.69,
+      "max_temp": 17.82,
+      "the_temp": 17.33,
+      "wind_speed": 5.202706209581378,
+      "wind_direction": 251.1656154312086,
+      "air_pressure": 1016.5,
+      "humidity": 77,
+      "visibility": 10.502415891195419,
+      "predictability": 71
+    },
+    {
+      "id": 6085416823291904,
+      "weather_state_name": "Heavy Cloud",
+      "weather_state_abbr": "hc",
+      "wind_direction_compass": "WSW",
+      "created": "2020-10-07T06:20:22.288952Z",
+      "applicable_date": "2020-10-08",
+      "min_temp": 12.875,
+      "max_temp": 16.555,
+      "the_temp": 16.92,
+      "wind_speed": 5.482962293777671,
+      "wind_direction": 246.44219169623358,
+      "air_pressure": 1014.5,
+      "humidity": 80,
+      "visibility": 11.363636363636363,
+      "predictability": 71
+    },
+    {
+      "id": 5803422353719296,
+      "weather_state_name": "Heavy Cloud",
+      "weather_state_abbr": "hc",
+      "wind_direction_compass": "WSW",
+      "created": "2020-10-07T06:20:25.292487Z",
+      "applicable_date": "2020-10-09",
+      "min_temp": 13.024999999999999,
+      "max_temp": 17.045,
+      "the_temp": 16.724999999999998,
+      "wind_speed": 6.004025713894855,
+      "wind_direction": 250.1660606579943,
+      "air_pressure": 1015,
+      "humidity": 83,
+      "visibility": 10.338373896444763,
+      "predictability": 71
+    },
+    {
+      "id": 6129368901353472,
+      "weather_state_name": "Light Cloud",
+      "weather_state_abbr": "lc",
+      "wind_direction_compass": "W",
+      "created": "2020-10-07T06:20:28.385149Z",
+      "applicable_date": "2020-10-10",
+      "min_temp": 13.865,
+      "max_temp": 17.955,
+      "the_temp": 18.27,
+      "wind_speed": 7.327740392483894,
+      "wind_direction": 268.3310415762484,
+      "air_pressure": 1017,
+      "humidity": 72,
+      "visibility": 15.079125407619502,
+      "predictability": 70
+    },
+    {
+      "id": 6670923606261760,
+      "weather_state_name": "Light Cloud",
+      "weather_state_abbr": "lc",
+      "wind_direction_compass": "W",
+      "created": "2020-10-07T06:20:31.295751Z",
+      "applicable_date": "2020-10-11",
+      "min_temp": 14.145,
+      "max_temp": 19.59,
+      "the_temp": 17.17,
+      "wind_speed": 4.831859142607174,
+      "wind_direction": 262,
+      "air_pressure": 1015,
+      "humidity": 79,
+      "visibility": 9.999726596675416,
+      "predictability": 70
+    },
+    {
+      "id": 6502627930013696,
+      "weather_state_name": "Clear",
+      "weather_state_abbr": "c",
+      "wind_direction_compass": "NW",
+      "created": "2020-10-07T06:20:34.985503Z",
+      "applicable_date": "2020-10-12",
+      "min_temp": 13.075,
+      "max_temp": 19.53,
+      "the_temp": 16.32,
+      "wind_speed": 2.816371192237334,
+      "wind_direction": 316,
+      "air_pressure": 1019,
+      "humidity": 75,
+      "visibility": 9.999726596675416,
+      "predictability": 68
+    }
+  ],
+  "time": "2020-10-07T01:27:25.509459-07:00",
+  "sun_rise": "2020-10-07T07:11:13.057668-07:00",
+  "sun_set": "2020-10-07T18:44:13.896765-07:00",
+  "timezone_name": "LMT",
+  "parent": {
+    "title": "California",
+    "location_type": "Region / State / Province",
+    "woeid": 2347563,
+    "latt_long": "37.271881,-119.270233"
+  },
+  "sources": [
+    {
+      "title": "BBC",
+      "slug": "bbc",
+      "url": "http://www.bbc.co.uk/weather/",
+      "crawl_rate": 360
+    },
+    {
+      "title": "Forecast.io",
+      "slug": "forecast-io",
+      "url": "http://forecast.io/",
+      "crawl_rate": 480
+    },
+    {
+      "title": "HAMweather",
+      "slug": "hamweather",
+      "url": "http://www.hamweather.com/",
+      "crawl_rate": 360
+    },
+    {
+      "title": "Met Office",
+      "slug": "met-office",
+      "url": "http://www.metoffice.gov.uk/",
+      "crawl_rate": 180
+    },
+    {
+      "title": "OpenWeatherMap",
+      "slug": "openweathermap",
+      "url": "http://openweathermap.org/",
+      "crawl_rate": 360
+    },
+    {
+      "title": "Weather Underground",
+      "slug": "wunderground",
+      "url": "https://www.wunderground.com/?apiref=fc30dc3cd224e19b",
+      "crawl_rate": 720
+    },
+    {
+      "title": "World Weather Online",
+      "slug": "world-weather-online",
+      "url": "http://www.worldweatheronline.com/",
+      "crawl_rate": 360
+    }
+  ],
+  "title": "San Francisco",
+  "location_type": "City",
+  "woeid": 2487956,
+  "latt_long": "37.777119, -122.41964",
+  "timezone": "US/Pacific"
+}

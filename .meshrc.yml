@@ -1,0 +1,20 @@
+sources:
+  - name: Weather By Location
+    handler:
+      jsonSchema:
+        baseUrl: https://www.metaweather.com/api
+        operations:
+          - type: Query
+            field: queryLocations
+            description: Fetch The Id of a particular Location!
+            path: location/search/?query={args.searchQuery}
+            method: GET
+            responseSample: ./json-samples/locationResponse.json
+          - type: Query
+            field: weatherByLocation
+            path: location/{args.woeid}
+            method: GET
+            responseSample: ./json-samples/weatherResponse.json
+
+serve:
+  exampleQuery: example.graphql
